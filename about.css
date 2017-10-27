@@ -1,13 +1,6 @@
 .about-title{
   text-align: center;
 }
-.side-img{
-  width:20%;
-  display: inline-block;
-  overflow: hidden;
-}
-.content{
-  width:60%;
-  display: inline-block;
-  overflow: hidden;
+.about-img-padding{
+  padding:0 !important;
 }
