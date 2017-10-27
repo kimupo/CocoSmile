@@ -35,3 +35,10 @@ body{
 .header-img{
   padding-top: 191px;
 }
+
+@media (max-width: 600px) and (min-width: 500px) {
+  .header {
+    display: none;
+  }
+
+}
