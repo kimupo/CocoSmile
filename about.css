@@ -1,6 +1,18 @@
 .about-title{
   text-align: center;
+  padding:40px 0px 40px 0px;
 }
-.about-img-padding{
-  padding:0 !important;
+.about-img{
+  background-image: url("img/header.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+}
+.about-header{
+  text-align: center;
+}
+.about-content{
+ margin: 0 auto;
+ width: 80%
 }

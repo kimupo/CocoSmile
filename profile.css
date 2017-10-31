@@ -1,0 +1,25 @@
+
+.profile-img{
+  background-image: url("img/header.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+}
+.profile-table{
+  margin: 0 auto;
+}
+.profile-table tr{
+  height:40px;
+}
+.profile-selfimg{
+    width:300px;
+    height:300px;
+    margin: 0 auto;
+    display: block;
+}
+.content{
+  margin: 0 auto;
+  text-align: center;
+  width:80%;
+}
