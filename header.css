@@ -1,3 +1,11 @@
+
+.navi{
+  position: fixed !important;
+  background-color:beige;
+}
+
+
+
 .title{
   text-align:center;
 }
