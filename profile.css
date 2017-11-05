@@ -23,3 +23,7 @@
   text-align: center;
   width:80%;
 }
+.container-fluid{
+  margin-top: -112px;
+  padding-top: 112px;
+}

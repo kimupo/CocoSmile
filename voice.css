@@ -1,8 +1,16 @@
 
+.voice-title{
+  text-align: center;
+  padding:40px 0px 40px 0px;
+}
 .voice-img{
   background-image: url("img/header.jpg");
   background-size: cover;
   background-position: center;
   height: 300px;
   width: 100%;
+}
+.container-fluid{
+  margin-top: -112px;
+  padding-top: 112px;
 }
