@@ -8,6 +8,8 @@
 }
 .profile-table{
   margin: 0 auto;
+  width: 80%;
+  font-size: 33px;
 }
 .profile-table tr{
   height:40px;
@@ -20,8 +22,8 @@
 }
 .content{
   margin: 0 auto;
-  text-align: center;
   width:80%;
+  font-size: 25px;
 }
 .container-fluid{
   margin-top: -112px;
