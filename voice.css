@@ -11,7 +11,13 @@
   height: 300px;
   width: 100%;
 }
-.container-fluid{
+.wrapper-voice{
   margin-top: -112px;
   padding-top: 112px;
+}
+.header-content{
+  font-size: 25px;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 30px;
 }
