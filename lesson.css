@@ -28,3 +28,13 @@
   text-align: center;
   font-size: 26px;
 }
+@media (max-width: 576px){
+  .one-lesson-img{
+    height: 60vw;
+    width: 60vw;;
+  }
+  .lesson-content{
+    text-align: center;
+    font-size: 18px;
+  }
+}
