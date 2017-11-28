@@ -9,6 +9,8 @@
   <link rel="stylesheet" type="text/css" href="voice.css">
   <link rel="stylesheet" type="text/css" href="gallery.css">
   <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css">
+  <!-- http://fancyapps.com/fancybox/3/ -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
   <title>CoCoSmile</title>
 </head>
 <body>
@@ -150,8 +152,33 @@
 
 <div class="container-fluid wrapper-gallery" id="GALLERY">
   <h1 class="gallery-title">GALLERY</h1>
-  <div class="row">
-    <div class="gallery-img">
+
+  <div class="row img-gallery">
+    <div class="col-6 col-sm-3">
+      <a data-fancybox="gallery" href="img/1.jpg"><img src="img/1.jpg"></a>
+    </div>
+    <div class="col-6 col-sm-3">
+      <a data-fancybox="gallery" href="img/2.jpg"><img src="img/2.jpg"></a>
+    </div>
+    <div class="col-6 col-sm-3">
+      <a data-fancybox="gallery" href="img/3.jpg"><img src="img/3.jpg"></a>
+    </div>
+    <div class="col-6 col-sm-3">
+      <a data-fancybox="gallery" href="img/4.jpg"><img src="img/4.jpg"></a>
+    </div>
+  </div>
+  <div class="row img-gallery">
+    <div class="col-6 col-sm-3">
+      <a data-fancybox="gallery" href="img/1.jpg"><img src="img/1.jpg"></a>
+    </div>
+    <div class="col-6 col-sm-3">
+      <a data-fancybox="gallery" href="img/2.jpg"><img src="img/2.jpg"></a>
+    </div>
+    <div class="col-6 col-sm-3">
+      <a data-fancybox="gallery" href="img/3.jpg"><img src="img/3.jpg"></a>
+    </div>
+    <div class="col-6 col-sm-3">
+      <a data-fancybox="gallery" href="img/4.jpg"><img src="img/4.jpg"></a>
     </div>
   </div>
 </div>
@@ -159,5 +186,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.8.2/umd/popper.js"></script>
   <script src="bootstrap/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
 </body>
 </html>
