@@ -5,7 +5,7 @@
   font-size: 80px;
 }
 .gallery-img{
-  background-image: url("img/header.jpg");
+  background-image: url("img/gallery-img/gallery-header.jpg");
   background-size: cover;
   background-position: center;
   height: 300px;
