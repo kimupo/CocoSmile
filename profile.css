@@ -15,17 +15,13 @@
   height:40px;
 }
 .profile-selfimg{
-    width:300px;
-    height:300px;
-    margin: 0 auto;
-    display: block;
+  width:300px;
+  height:300px;
+  margin: 0 auto;
+  display: block;
 }
 .content{
   margin: 0 auto;
   width:80%;
   font-size: 25px;
-}
-.wrapper-profile{
-  margin-top: -112px;
-  padding-top: 112px;
 }

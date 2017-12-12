@@ -1,19 +1,9 @@
-
-.voice-title{
-  text-align: center;
-  padding:40px 0px 40px 0px;
-  font-size: 80px;
-}
 .voice-img{
   background-image: url("img/voice-img/voice-header.jpg");
   background-size: cover;
   background-position: center;
   height: 300px;
   width: 100%;
-}
-.wrapper-voice{
-  margin-top: -112px;
-  padding-top: 112px;
 }
 .header-content{
   font-size: 25px;

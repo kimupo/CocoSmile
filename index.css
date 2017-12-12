@@ -1,12 +1,8 @@
-
 #navi{
   position: fixed !important;
   background-color:beige;
   width: 100%;
 }
-
-
-
 .title{
   text-align:center;
 }
@@ -26,10 +22,13 @@
 hr{
   margin-bottom: 30px;
 }
-
 .header-img{
   margin: 0 auto;
   display:block;
   padding-top: 113px;
 }
-.
+
+.container-title{
+  text-align: center;
+  font-size: 8em;
+}
