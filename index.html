@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" href="lesson.css">
   <link rel="stylesheet" type="text/css" href="voice.css">
   <link rel="stylesheet" type="text/css" href="gallery.css">
+  <link rel="stylesheet" type="text/css" href="contact.css">
   <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
   <link href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css" rel="stylesheet" />
@@ -37,6 +38,9 @@
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="#GALLERY">GALLERY</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#CONTACT">CONTACT</a>
         </li>
       </ul>
     </div>
@@ -225,17 +229,46 @@
 
   </div>
 
+  <div class="container-fuild mt-5" id="CONTACT">
+    <h1 class="container-title">CONTACT</h1>
+    <div class="row">
+      <div class="gallery-img">
+      </div>
+    </div>
+
+    <p class="contact-text my-5">あなたも私たちと一生にプリザーブドフラワーを初めてみませんか？</p>
+
+    <div class="row">
+      <div class="col-12 col-sm-6">
+        <div class="contact-box">
+          <div class="contact-border">
+            <h2>住所</h2>
+            <h3>東京都世田谷区日吉町住吉</h3>
+          </div>
+          <div class="contact-border">
+            <h2>メール</h2>
+            <a href="mailto:someone@example.com?Subject=Hello%20again"><h3>cocosmile@gmail.com</h3></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12959.62097223421!2d139.74221154999998!3d35.70394935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sjp!4v1513073329862" width="80%" height="450" frameborder="0" style="border:0;margin:0 auto;display:block;" allowfullscreen></iframe>
+      </div>
+    </div>
+
+  </div>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.8.2/umd/popper.js"></script>
   <script src="bootstrap/bootstrap.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
   <script>
   $(function(){
-   // #で始まるアンカーをクリックした場合に処理
-   $('a[href^="#"]').click(function() {
+    // #で始まるアンカーをクリックした場合に処理
+    $('a[href^="#"]').click(function() {
       // スクロールの速度
       var speed = 400; // ミリ秒
-　　　 // 移動先を取得
+      // 移動先を取得
       var href= $(this).attr("href");
       var target = $(href == "#" || href == "" ? 'html' : href);
       // 移動先を数値で取得
@@ -243,8 +276,8 @@
       // スムーススクロール
       $('body,html').animate({scrollTop:position - 120}, speed, 'swing');
       return false;
-   });
-});
+    });
+  });
   </script>
 </body>
 </html>
