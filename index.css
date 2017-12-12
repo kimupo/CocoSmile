@@ -1,6 +1,7 @@
 .title{
   text-align:center;
   font-size: 5rem;
+  font-family: 'Poiret One', cursive;
 }
 .header li{
   display:inline-block;
@@ -53,5 +54,32 @@ body{
   }
   .title{
     font-size: 3rem;
+  }
+}
+
+.header-img{
+  background-image: url('img/header-img/header.jpg');
+  height: 60vw;
+  width: 90%;
+  background-size: cover;
+  background-position: center;
+  padding-top: 0px;
+}
+
+.header-title{
+  font-family: 'Poiret One', cursive;
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  line-height: 60vw;
+}
+
+@media (min-width: 991px){
+  .header-title{
+    line-height: 45vw;
+    font-size: 7rem;
+  }
+  .header-img{
+    height: 45vw;
   }
 }
