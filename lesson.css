@@ -15,15 +15,11 @@
 }
 .lesson-content{
   text-align: center;
-  font-size: 26px;
+  font-size: 2rem;
 }
 @media (max-width: 576px){
   .one-lesson-img{
     height: 60vw;
     width: 60vw;;
-  }
-  .lesson-content{
-    text-align: center;
-    font-size: 18px;
   }
 }

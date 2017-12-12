@@ -9,7 +9,7 @@
 .profile-table{
   margin: 0 auto;
   width: 80%;
-  font-size: 33px;
+  font-size: 3rem;
 }
 .profile-table tr{
   height:40px;
@@ -23,5 +23,5 @@
 .content{
   margin: 0 auto;
   width:80%;
-  font-size: 25px;
+  font-size: 2rem;
 }

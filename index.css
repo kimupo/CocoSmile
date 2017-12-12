@@ -30,5 +30,10 @@ hr{
 
 .container-title{
   text-align: center;
-  font-size: 8em;
+  font-size: 5em;
+}
+
+body{
+  font-family: "Rounded Mplus 1c" !important;
+  font-weight: 300 !important;
 }

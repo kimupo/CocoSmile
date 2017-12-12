@@ -6,8 +6,14 @@
   width: 100%;
 }
 .header-content{
-  font-size: 25px;
+  font-size: 3rem;
   width: 80%;
   margin: 0 auto;
   padding-top: 30px;
+}
+.voice-content{
+  font-size: 2rem;
+}
+.voice-list{
+  font-size: 2rem;
 }
