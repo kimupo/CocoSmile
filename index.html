@@ -14,17 +14,34 @@
   <title>CoCoSmile</title>
 </head>
 <body>
-  <div id="navi">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <h1 class="title">CoCo Smile</h1>
-    <ul class="header">
-      <li><a href="#ABOUT">ABOUT</a></li>
-      <li><a href="#PROFILE">PROFILE</a></li>
-      <li><a href="#LESSON">LESSON</a></li>
-      <li><a href="#VOICE">VOICE</a></li>
-      <li><a href="#GALLERY">GALLERY</a></li>
-    </ul>
+    <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse header" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#ABOUT">ABOUT</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#PROFILE">PROFILE</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#LESSON">LESSION</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#VOICE">VOICE</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#GALLERY">GALLERY</a>
+        </li>
+      </ul>
+    </div>
     <hr>
-  </div>
+  </nav>
+
   <div class="container">
     <img class="header-img img-fluid" src="img/header-img/header.jpg" alt="topの画像">
   </div>
@@ -203,13 +220,28 @@
       </div>
     </div>
 
-
-
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.8.2/umd/popper.js"></script>
   <script src="bootstrap/bootstrap.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+  <script>
+  $(function(){
+   // #で始まるアンカーをクリックした場合に処理
+   $('a[href^="#"]').click(function() {
+      // スクロールの速度
+      var speed = 400; // ミリ秒
+　　　 // 移動先を取得
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      // 移動先を数値で取得
+      var position = target.offset().top;
+      // スムーススクロール
+      $('body,html').animate({scrollTop:position - 120}, speed, 'swing');
+      return false;
+   });
+});
+  </script>
 </body>
 </html>

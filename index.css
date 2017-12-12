@@ -1,24 +1,18 @@
-#navi{
-  position: fixed !important;
-  background-color:beige;
-  width: 100%;
-}
 .title{
   text-align:center;
+  font-size: 5rem;
 }
 .header li{
   display:inline-block;
   margin-left: 15px;
   margin-right: 15px;
+  font-size: 1.5rem;
 }
 .header li a{
   color: black;
   text-decoration: none;
 }
 
-.header{
-  text-align: center;
-}
 hr{
   margin-bottom: 30px;
 }
@@ -36,4 +30,28 @@ hr{
 body{
   font-family: "Rounded Mplus 1c" !important;
   font-weight: 300 !important;
+}
+.navbar{
+  background-color: beige;
+}
+
+@media (min-width: 991px){
+  .navbar{
+    display: block !important;
+  }
+}
+.header ul{
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media (max-width: 991px){
+  .nav-button{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  .title{
+    font-size: 3rem;
+  }
 }
