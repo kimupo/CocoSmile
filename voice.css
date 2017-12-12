@@ -5,15 +5,26 @@
   height: 300px;
   width: 100%;
 }
-.header-content{
-  font-size: 3rem;
-  width: 80%;
-  margin: 0 auto;
-  padding-top: 30px;
-}
 .voice-content{
   font-size: 2rem;
 }
 .voice-list{
   font-size: 2rem;
+}
+.voice-wrapper h2{
+  font-size: 3rem;
+}
+.voice-wrapper{
+  width: 80%;
+  margin: 0 auto;
+}
+.voice-man{
+  color: white;
+  background-color: #003149;
+  text-align: center;
+}
+.voice-woman{
+  color: white;
+  background-color: #AD002D;
+  text-align: center;
 }

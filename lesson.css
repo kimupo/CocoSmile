@@ -8,18 +8,26 @@
 .one-lesson-img{
   background-size: cover;
   background-position: center;
-  height: 30vw;
-  width: 30vw;
-  margin:0 auto;
-  margin-top:30px;
+  height: 45vw;
+  width: 100%;
+  margin: 0 auto;
 }
 .lesson-content{
   text-align: center;
   font-size: 2rem;
 }
-@media (max-width: 576px){
+@media (min-width: 576px){
   .one-lesson-img{
-    height: 60vw;
-    width: 60vw;;
+    height: 30vw;
   }
+}
+@media (min-width: 991px){
+  .one-lesson-img{
+    height: 15vw;
+  }
+}
+
+.lesson-wrapper{
+  width: 80%;
+  margin: 0 auto;
 }
