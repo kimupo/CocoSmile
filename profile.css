@@ -1,4 +1,3 @@
-
 .profile-img{
   background-image: url("img/profile-img/profile-header.jpg");
   background-size: cover;
@@ -8,26 +7,29 @@
 }
 .profile-table{
   margin: 0 auto;
-  width: 80%;
-  font-size: 33px;
+  width: 40%;
+  font-size: 3rem;
 }
 .profile-table tr{
   height:40px;
 }
 .profile-selfimg{
-    width:300px;
-    height:300px;
-    margin: 0 auto;
-    display: block;
+  width:250px;
+  height:250px;
+  margin: 0 auto;
+  display: block;
+  object-fit: cover;
 }
 .content{
   margin: 0 auto;
   width:80%;
-  font-size: 25px;
+  font-size: 2rem;
 }
-.wrapper-profile{
-  margin-top: -112px;
-  padding-top: 112px;
+
+@media (max-width: 800px){
+  .profile-table{
+    font-size: 1.7rem;
+  }
 }
 .profile-title{
   text-align: center;

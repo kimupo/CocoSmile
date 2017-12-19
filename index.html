@@ -2,33 +2,60 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="header.css">
+  <link rel="stylesheet" type="text/css" href="index.css">
   <link rel="stylesheet" type="text/css" href="about.css">
   <link rel="stylesheet" type="text/css" href="profile.css">
   <link rel="stylesheet" type="text/css" href="lesson.css">
   <link rel="stylesheet" type="text/css" href="voice.css">
   <link rel="stylesheet" type="text/css" href="gallery.css">
+  <link rel="stylesheet" type="text/css" href="contact.css">
   <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+  <link href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
   <title>CoCoSmile</title>
 </head>
 <body>
-  <div id="navi">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <h1 class="title">CoCo Smile</h1>
-    <ul class="header">
-      <li><a href="#ABOUT">ABOUT</a></li>
-      <li><a href="#PROFILE">PROFILE</a></li>
-      <li><a href="#LESSON">LESSON</a></li>
-      <li><a href="#VOICE">VOICE</a></li>
-      <li><a href="#GALLERY">GALLERY</a></li>
-    </ul>
-    <hr>
-  </div>
-  <img class="header-img container" src="img/header-img/hader-img.jpg" alt="topの画像">
+    <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="container-fluid wrapper-about" id="ABOUT">
-    <h1 class="about-title">ABOUT</h1>
-    <div class="row">
+    <div class="collapse navbar-collapse header" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#ABOUT">ABOUT</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#PROFILE">PROFILE</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#LESSON">LESSION</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#VOICE">VOICE</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#GALLERY">GALLERY</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#CONTACT">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+    <hr>
+  </nav>
+
+  <div class="container">
+    <div class="header-img">
+      <h1 class="header-title">CoCo Simile</h1>
+    </div>
+  </div>
+
+  <div class="container-fluid mt-5" id="ABOUT">
+    <h1 class="container-title">ABOUT</h1>
+    <div class="row my-4">
       <div class="about-img ">
       </div>
     </div>
@@ -47,28 +74,28 @@
     </p>
   </div>
 
-  <div class="container-fluid wrapper-profile" id="PROFILE">
-    <h1 class="profile-title">PROFILE</h1>
-    <div class="row">
+  <div class="container-fluid mt-5" id="PROFILE">
+    <h1 class="container-title">PROFILE</h1>
+    <div class="row my-4">
       <div class="profile-img">
       </div>
     </div>
-    <table class="profile-table">
+    <table class="profile-table my-4">
       <tr>
         <td>NAME</td>
-        <td>木村　ひろ子（Hiroko Kimura)</td>
+        <td>木村　ひろ子</td>
       </tr>
       <tr>
-        <td>WAY</td>
+        <td>SCHOOL</td>
         <td>草月流</td>
       </tr>
       <tr>
         <td>COMPANY</td>
-        <td>CoCweo Smile</td>
+        <td>CoCo Smile</td>
       </tr>
     </table>
     <img class="profile-selfimg" src="img/header.jpg" alt="プロフィール画像" >
-    <div class="content">
+    <div class="content my-4">
       <p>
         東京、自由が丘のプリザーブドフラワー、アーティシャフルフラワーのお教室。
         日本の四季折々のイベントを彩るアレンジから一年中楽しめるアレンジまで色々楽しめるテーブルをご用意しております。
@@ -99,132 +126,158 @@
     </div>
   </div>
 
-  <div class="container-fluid wrapper-lesson" id="LESSON">
-    <h1 class="lesson-title">LESSON</h1>
-    <div class="row">
+  <div class="container-fluid mt-5" id="LESSON">
+    <h1 class="container-title">LESSON</h1>
+    <div class="row my-4">
       <div class="lesson-img">
       </div>
     </div>
-    <div class="row">
-      <div class="col-sm-12 col-md-6">
-        <div class="one-lesson-img" style="background-image: url('img/header.jpg');">
+    <div class="lesson-wrapper">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="one-lesson-img" style="background-image: url('img/header.jpg');">
+          </div>
+          <p class="lesson-content">体験レッスン</p>
+          <p class="lesson-content">50000￥</p>
         </div>
-        <p class="lesson-content">体験レッスン</p>
-        <p class="lesson-content">50000￥</p>
-      </div>
-      <div class="col-sm-12 col-md-6">
-        <div class="one-lesson-img"  style="background-image: url('img/header.jpg');">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="one-lesson-img"  style="background-image: url('img/header.jpg');">
+          </div>
+          <p class="lesson-content">体験レッスン</p>
+          <p class="lesson-content">50000￥</p>
         </div>
-        <p class="lesson-content">体験レッスン</p>
-        <p class="lesson-content">50000￥</p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-12 col-md-6">
-        <div class="one-lesson-img" style="background-image: url('img/header.jpg');">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="one-lesson-img" style="background-image: url('img/header.jpg');">
+          </div>
+          <p class="lesson-content">体験レッスン</p>
+          <p class="lesson-content">50000￥</p>
         </div>
-        <p class="lesson-content">体験レッスン</p>
-        <p class="lesson-content">50000￥</p>
-      </div>
-      <div class="col-sm-12 col-md-6">
-        <div class="one-lesson-img"  style="background-image: url('img/header.jpg');">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="one-lesson-img"  style="background-image: url('img/header.jpg');">
+          </div>
+          <p class="lesson-content">体験レッスン</p>
+          <p class="lesson-content">50000￥</p>
         </div>
-        <p class="lesson-content">体験レッスン</p>
-        <p class="lesson-content">50000￥</p>
       </div>
     </div>
   </div>
 
-  <div class="container-fluid wrapper-voice" id="VOICE">
-    <h1 class="voice-title">VOICE</h1>
-    <div class="row">
+  <div class="container-fluid mt-5" id="VOICE">
+    <h1 class="container-title">VOICE</h1>
+    <div class="row my-4">
       <div class="voice-img">
       </div>
-      <p class="header-content">生徒の皆さんから送られたレッスンの感想です。参考にぜひ！！！</p>
     </div>
-    <div class="row">
-      <div class="col-sm-12 col-md-2">
-        <p class="voice-list">４０代女性</p>
+    <div class="voice-wrapper my-4">
+      <h2>レッスンを受けられた生徒さんからのご感想です</h2>
+      <div class="row my-3">
+        <div class="col-sm-12 col-md-2">
+          <p class="voice-list voice-woman">４０代女性</p>
+        </div>
+        <div class="col-sm-12 col-md-10">
+          <p class="voice-content">プリザーブドフラワーはドライフラワーと違い、保存が聞くのでおすすめです。</p>
+        </div>
       </div>
-      <div class="col-sm-12 col-md-10">
-        <p class="voice-content">2年ほど独学でギターをやっていましたが、行き詰まり三澤先生に教えていただくことになりました。</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-12 col-md-2">
-        <p class="voice-list">４０代女性</p>
-      </div>
-      <div class="col-sm-12 col-md-10">
-        <p class="voice-content">2年ほど独学でギターをやっていましたが、行き詰まり三澤先生に教えていただくことになりました。</p>
+      <div class="row my-3">
+        <div class="col-sm-12 col-md-2">
+          <p class="voice-list voice-man">４０代男性</p>
+        </div>
+        <div class="col-sm-12 col-md-10">
+          <p class="voice-content">プリザーブドフラワーはドライフラワーと違い、保存が聞くのでおすすめです。</p>
+        </div>
       </div>
     </div>
   </div>
 
-  <div class="container-fluid wrapper-gallery" id="GALLERY">
-    <h1 class="gallery-title">GALLERY</h1>
+  <div class="container-fluid mt-5" id="GALLERY">
+    <h1 class="container-title">GALLERY</h1>
+    <div class="row img-gallery px-5">
+      <div class="col-6 col-sm-3 px-3">
+        <a data-fancybox="gallery" href="img/gallery-img/gallery2.jpg"><img src="img/gallery-img/gallery2.jpg" ></a>
+      </div>
+
+      <div class="col-6 col-sm-3 px-3">
+        <a data-fancybox="gallery" href="img/gallery-img/gallery2.jpg"><img src="img/gallery-img/gallery2.jpg" ></a>
+      </div>
+
+      <div class="col-6 col-sm-3 px-3">
+        <a data-fancybox="gallery" href="img/gallery-img/gallery2.jpg"><img src="img/gallery-img/gallery2.jpg" ></a>
+      </div>
+
+      <div class="col-6 col-sm-3 px-3">
+        <a data-fancybox="gallery" href="img/gallery-img/gallery2.jpg"><img src="img/gallery-img/gallery2.jpg" ></a>
+      </div>
+    </div>
+
+    <div class="row img-gallery px-5">
+      <div class="col-6 col-sm-3 px-3">
+        <a data-fancybox="gallery" href="img/gallery-img/gallery2.jpg"><img src="img/gallery-img/gallery2.jpg" ></a>
+      </div>
+
+      <div class="col-6 col-sm-3 px-3">
+        <a data-fancybox="gallery" href="img/gallery-img/gallery2.jpg"><img src="img/gallery-img/gallery2.jpg" ></a>
+      </div>
+
+      <div class="col-6 col-sm-3 px-3">
+        <a data-fancybox="gallery" href="img/gallery-img/gallery2.jpg"><img src="img/gallery-img/gallery2.jpg" ></a>
+      </div>
+
+      <div class="col-6 col-sm-3 px-3">
+        <a data-fancybox="gallery" href="img/gallery-img/gallery2.jpg"><img src="img/gallery-img/gallery2.jpg" ></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container-fuild mt-5" id="CONTACT">
+    <h1 class="container-title">CONTACT</h1>
     <div class="row">
       <div class="gallery-img">
       </div>
     </div>
-    <div class="row img-gallery">
-      <div class="col-6 col-sm-3">
-        <a data-fancybox="gallery" href="img/gallery-img/gallery1.jpg"><img src="img/gallery-img/gallery1.jpg" ></a>
-      </div>
 
-      <div class="col-6 col-sm-3">
-        <a data-fancybox="gallery" href="img/gallery-img/gallery2.jpg"><img src="img/gallery-img/gallery2.jpg" ></a>
-      </div>
+    <p class="contact-text my-5">あなたも私たちと一生にプリザーブドフラワーを初めてみませんか？</p>
 
-      <div class="col-6 col-sm-3">
-        <a data-fancybox="gallery" href="img/gallery-img/gallery3.jpg"><img src="img/gallery-img/gallery3.jpg" ></a>
+    <div class="row">
+      <div class="col-12 col-sm-6">
+        <div class="contact-box">
+          <div class="contact-border">
+            <h2>住所</h2>
+            <h3>東京都世田谷区日吉町住吉</h3>
+          </div>
+          <div class="contact-border">
+            <h2>メール</h2>
+            <a href="mailto:someone@example.com?Subject=Hello%20again"><h3>cocosmile@gmail.com</h3></a>
+          </div>
+        </div>
       </div>
-
-      <div class="col-6 col-sm-3">
-        <a data-fancybox="gallery" href="img/gallery-img/gallery4.jpg"><img src="img/gallery-img/gallery4.jpg" ></a>
-      </div>
-
-      <div class="col-6 col-sm-3">
-        <a data-fancybox="gallery" href="img/gallery-img/gallery5.jpg"><img src="img/gallery-img/gallery5.jpg" ></a>
-      </div>
-
-      <div class="col-6 col-sm-3">
-        <a data-fancybox="gallery" href="img/gallery-img/gallery6.jpg"><img src="img/gallery-img/gallery6.jpg" ></a>
-      </div>
-
-      <div class="col-6 col-sm-3">
-        <a data-fancybox="gallery" href="img/gallery-img/gallery7.jpg"><img src="img/gallery-img/gallery7.jpg" ></a>
-      </div>
-
-      <div class="col-6 col-sm-3">
-        <a data-fancybox="gallery" href="img/gallery-img/gallery8.jpg"><img src="img/gallery-img/gallery8.jpg" ></a>
-      </div>
-
-      <div class="col-6 col-sm-3">
-        <a data-fancybox="gallery" href="img/gallery-img/gallery9.jpg"><img src="img/gallery-img/gallery9.jpg" ></a>
-      </div>
-
-      <div class="col-6 col-sm-3">
-        <a data-fancybox="gallery" href="img/gallery-img/gallery10.jpg"><img src="img/gallery-img/gallery10.jpg" ></a>
-      </div>
-
-      <div class="col-6 col-sm-3">
-        <a data-fancybox="gallery" href="img/gallery-img/gallery11.jpg"><img src="img/gallery-img/gallery11.jpg" ></a>
-      </div>
-
-      <div class="col-6 col-sm-3">
-        <a data-fancybox="gallery" href="img/gallery-img/gallery12.jpg"><img src="img/gallery-img/gallery12.jpg" ></a>
-      </div>
-
-      <div class="col-6 col-sm-3">
-        <a data-fancybox="gallery" href="img/gallery-img/gallery13.jpg"><img src="img/gallery-img/gallery13.jpg" ></a>
+      <div class="col-12 col-sm-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12959.62097223421!2d139.74221154999998!3d35.70394935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sjp!4v1513073329862" width="80%" height="450" frameborder="0" style="border:0;margin:0 auto;display:block;" allowfullscreen></iframe>
       </div>
     </div>
+
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.8.2/umd/popper.js"></script>
   <script src="bootstrap/bootstrap.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+  <script>
+  $(function(){
+    // #で始まるアンカーをクリックした場合に処理
+    $('a[href^="#"]').click(function() {
+      // スクロールの速度
+      var speed = 400; // ミリ秒
+      // 移動先を取得
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      // 移動先を数値で取得
+      var position = target.offset().top;
+      // スムーススクロール
+      $('body,html').animate({scrollTop:position - 120}, speed, 'swing');
+      return false;
+    });
+  });
+  </script>
 </body>
 </html>
