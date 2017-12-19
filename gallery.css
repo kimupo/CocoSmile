@@ -1,10 +1,4 @@
-.gallery-img{
-  background-image: url("img/gallery-img/gallery-header.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 300px;
-  width: 100%;
-}
+
 .wrapper-gallery{
   margin-top: -112px;
   padding-top: 112px;
