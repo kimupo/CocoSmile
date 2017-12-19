@@ -11,7 +11,7 @@
 .img-gallery{
   padding-top: 1.5rem;
 }
-@media (max-width:576px){
+@media screen and (max-width:576px){
   .img-gallery img{
     height: 35vw;
     margin-top: 1rem;
