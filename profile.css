@@ -31,3 +31,8 @@
     font-size: 1.7rem;
   }
 }
+.profile-title{
+  text-align: center;
+  padding:40px 0px 40px 0px;
+  font-size: 80px;
+}
